@@ -1,0 +1,19 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.main-content {
+    display: flex;
+    flex-direction: row;
+    width: 100vw;
+    height: 100vh;
+}
+
+.left-pane {
+    background-image: url('./images/leaves.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 35vw;
+}
